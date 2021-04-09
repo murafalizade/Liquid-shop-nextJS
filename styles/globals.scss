@@ -1,0 +1,76 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+input,button{
+  outline:hidden;
+}
+button:focus{
+  border:none;
+  outline:0;
+  user-select: none;
+}
+button{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+///for login page
+.form-control{
+    margin: 5px;
+    border-radius: 25px!important;
+    border: 1px solid blue;
+    textarea:placeholder-shown{
+      text-align:center;
+    }
+}
+.formm{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    border: 2px solid #6c6cff;
+    box-shadow: 0 4px 8px 0 rgba(48, 91, 172, 0.2), 0 6px 20px 0 rgba(202, 158, 158, 0.19);
+}
+small{
+    margin-left: 6px;
+}
+form{
+    padding: 0%;
+}
+.form{
+    display: flex;;
+    -ms-flex-align: center;
+    align-items: center;
+}
+button{
+    border-radius:15px!important;
+}
+  
+textarea{
+  resize: none!important;
+}

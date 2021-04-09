@@ -1,0 +1,29 @@
+$water-blue:#379eff;
+.cardMain{
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;              
+    align-items:center;
+    border:1px solid;
+    border-radius:25px;
+    width:300px;
+    margin:10px 15px;
+    text-align:center;
+    height:400px;
+    border-color: $water-blue;
+    img{
+        width:150px;
+        height:200px;
+    }
+    h2{
+        font-size: 25px;
+        font-weight: lighter;
+    }
+    h3{
+        margin: 15px;
+    }
+    button{
+        margin:10px 10px;
+    }
+}

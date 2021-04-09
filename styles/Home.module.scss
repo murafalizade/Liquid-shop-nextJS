@@ -1,0 +1,26 @@
+//variables
+$overlay-color:rgb(0,0,0,.8);
+$standart-width:1445px;
+$standart-height:640px;
+$water-blue:#379eff;
+
+.overlay{
+    max-width:$standart-width;
+    height:$standart-height;
+    background-color:$overlay-color;
+    h3{
+        color:#fff;
+        font-size:80px;
+        font-weight:lighter;
+        padding:15px 20px;
+        margin-bottom:10px;
+        span{
+            color:$water-blue;
+        }
+    }
+}
+.brand{
+    position:absolute;
+    top:100px;
+    left:250px;
+}

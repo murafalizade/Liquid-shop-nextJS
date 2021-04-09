@@ -1,12 +1,18 @@
-.body{
-    background-color: red;
-    a{
-        color:blue;
+.aboutsection{
+    display:inline-flex;
+    width:90%;
+    height:50%;
+    img{
+        margin-left:250px;
+        padding:35px 30px;
+        width:350px;
+        height:450px;
     }
-}
-.main{
-    background-color:blue;
-    a{
-        color:red;
+    p{
+        font-weight: lighter;
+        margin-top: 120px;
+        line-height: 150%;
+        padding:15px 20px;
+        font-size: 20px;
     }
 }

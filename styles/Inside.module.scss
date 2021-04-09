@@ -1,0 +1,62 @@
+$water-blue:#379eff;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+.inside{
+    margin-left: 15%;
+    width:70%;
+    height:100%;
+    img{
+        text-align: center;
+        margin-top: 100px;
+        width:200px;
+        padding:0 60px;
+        height:400px;
+        margin-left: 15px;
+    }
+}
+.sectionhead{
+    margin:15px 0;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    display:block;
+    h3{
+        font-weight: bold;
+        font-size: 35px;
+        span{
+            color:$water-blue;
+        }
+    }
+    p{
+        font-weight: lighter;
+        color:burlywood;
+    }
+
+}
+.sectionmain{
+    display:flex;
+    ul{
+        padding:15px 5px;
+        margin-top:80px;
+        li{
+            font-size: 20px;
+            font-family: roboto;
+            text-align: right;
+            margin-bottom:50px;
+            padding:5px 10px;
+            h3{
+                font-weight: normal;
+              font-size: 20px;
+                color: #081F46;
+            }
+            span{
+                margin-bottom: 15px;
+                color:$water-blue;
+                 
+            }
+            p{
+                margin-top: 15px;
+                font-size: 15px;
+                font-weight: lighter;
+            }
+        }
+    }
+}
