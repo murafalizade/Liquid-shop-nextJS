@@ -8,9 +8,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function ProductBuy({ product }) {
     const item = product[0]
 
-    const sumbitUser =async (userDetail) => {
-       const data = await axios.post('http://localhost:3001/userDetail',userDetail)
-        console.log(userDetail)
+    const sumbitUser = async (userDetail) => {
+       const data = await axios.post('http://localhost:3001/api/userDetail',userDetail)
+        console.log(userDetail);
+        alert('Your Product sending . . .');
+        window.location.reload();
     }
 
 
@@ -72,7 +74,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     console.log(params.slugs)
-    const datas = await axios.get(`http://localhost:3001/${params.slugs}`)
+    const datas = await axios.get(`http://localhost:3001/api/${params.slugs}`)
     const product = datas.data
     return {
         props: { product }

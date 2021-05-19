@@ -1,4 +1,4 @@
-export default function SectionButton({children,active}){
+export default function SectionButton({ children, active, forwardRef}){
     return(
         <>
             <style jsx>{`
